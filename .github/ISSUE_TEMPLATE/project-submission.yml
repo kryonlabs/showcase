@@ -1,0 +1,73 @@
+name: Project submission
+description: Request help adding a Kryon project to the showcase.
+title: "Submit project: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if you want help turning your project into a showcase pull request.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: The public app or project name.
+      placeholder: My Kryon App
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: Lowercase letters, numbers, and hyphens only.
+      placeholder: my-kryon-app
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One user-facing sentence describing what the app does.
+      placeholder: A focused desktop tool built with Kryon for...
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository URL
+      placeholder: https://github.com/example/my-kryon-app
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage URL
+      description: Optional app, docs, or download page.
+      placeholder: https://example.com/my-kryon-app
+  - type: input
+    id: banner
+    attributes:
+      label: Banner image URL
+      description: Public HTTPS URL to a 16:9 PNG, JPG, JPEG, or WebP image.
+      placeholder: https://raw.githubusercontent.com/example/my-kryon-app/master/showcase/banner.png
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated lowercase tags.
+      placeholder: app, desktop, tool
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The project is built with Kryon or directly supports Kryon projects.
+          required: true
+        - label: The repository and banner image are public.
+          required: true
+        - label: The banner image can be redistributed in the Kryon showcase.
+          required: true

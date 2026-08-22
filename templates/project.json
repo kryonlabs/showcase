@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "slug": "my-kryon-app",
+  "name": "My Kryon App",
+  "summary": "A short user-facing sentence describing what the Kryon project does.",
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/example/my-kryon-app",
+    "owner": "example",
+    "name": "my-kryon-app"
+  },
+  "homepage": "https://example.com/my-kryon-app",
+  "banner": {
+    "url": "https://raw.githubusercontent.com/example/my-kryon-app/master/showcase/banner.png",
+    "alt": "My Kryon App showcase banner"
+  },
+  "tags": ["app", "kryon"],
+  "featured": false
+}
