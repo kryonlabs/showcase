@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "slug": "inner-breeze",
+  "name": "Inner Breeze",
+  "summary": "Breathing, meditation, and habit practice flows built as a real Kryon app target.",
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/waozixyz/inbe",
+    "owner": "waozixyz",
+    "name": "inbe"
+  },
+  "homepage": "https://inbe.waozi.xyz",
+  "banner": {
+    "url": "https://raw.githubusercontent.com/waozixyz/inbe/master/showcase/banner.png",
+    "alt": "Inner Breeze app showcase banner"
+  },
+  "tags": ["wellness", "habits", "mobile", "web"],
+  "featured": true
+}
