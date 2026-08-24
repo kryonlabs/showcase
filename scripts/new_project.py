@@ -49,6 +49,8 @@ def main():
     parser.add_argument("--slug", required=True, help="Lowercase project slug, e.g. my-kryon-app.")
     parser.add_argument("--name", required=True, help="Public project name.")
     parser.add_argument("--summary", required=True, help="One user-facing sentence.")
+    parser.add_argument("--author", required=True, help="Public author name.")
+    parser.add_argument("--author-url", required=True, help="Public HTTPS author website.")
     parser.add_argument("--repo", required=True, help="Public HTTPS repository URL.")
     parser.add_argument("--banner", required=True, help="Public HTTPS banner image URL.")
     parser.add_argument("--homepage", help="Optional HTTPS homepage URL.")
@@ -62,6 +64,8 @@ def main():
     platform, owner, repo_name = parse_repo(args.repo)
     if args.homepage and not args.homepage.startswith("https://"):
         raise SystemExit("homepage must use https")
+    if not args.author_url.startswith("https://"):
+        raise SystemExit("author URL must use https")
     if not args.banner.startswith("https://"):
         raise SystemExit("banner must use https")
 
@@ -70,6 +74,10 @@ def main():
         "slug": args.slug,
         "name": args.name,
         "summary": args.summary,
+        "author": {
+            "name": args.author,
+            "url": args.author_url
+        },
         "repository": {
             "platform": platform,
             "url": args.repo,

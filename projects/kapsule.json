@@ -3,6 +3,10 @@
   "slug": "kapsule",
   "name": "Kapsule",
   "summary": "Native terminal application with sessions, tabs, and focused developer workflows.",
+  "author": {
+    "name": "kryonlabs",
+    "url": "https://kryonlabs.com"
+  },
   "repository": {
     "platform": "github",
     "url": "https://github.com/kryonlabs/kapsule",

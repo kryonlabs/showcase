@@ -49,7 +49,7 @@ def validate_project(path):
     with path.open("r", encoding="utf-8") as fh:
         data = json.load(fh)
 
-    allowed = {"schemaVersion", "slug", "name", "summary", "repository", "homepage", "banner", "tags", "featured", "unranked"}
+    allowed = {"schemaVersion", "slug", "name", "summary", "author", "repository", "homepage", "banner", "tags", "featured", "unranked"}
     extra = set(data) - allowed
     if extra:
         return fail(path, f"unknown fields: {', '.join(sorted(extra))}")
@@ -63,6 +63,14 @@ def validate_project(path):
         return fail(path, "filename must match slug")
     if check_string(path, data, "name", 1, 80) or check_string(path, data, "summary", 20, 220):
         return 1
+
+    author = data.get("author")
+    if not isinstance(author, dict):
+        return fail(path, "author must be an object")
+    if not isinstance(author.get("name"), str) or not 1 <= len(author["name"]) <= 80:
+        return fail(path, "author.name must be a short string")
+    if not isinstance(author.get("url"), str) or not HTTPS_RE.match(author["url"]):
+        return fail(path, "author.url must be an HTTPS URL")
 
     repo = data.get("repository")
     if not isinstance(repo, dict):

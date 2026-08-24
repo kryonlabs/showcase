@@ -13,6 +13,8 @@ python3 scripts/new_project.py \
   --slug my-kryon-app \
   --name "My Kryon App" \
   --summary "A short user-facing sentence describing what the app does." \
+  --author "Example Author" \
+  --author-url https://example.com \
   --repo https://github.com/example/my-kryon-app \
   --banner https://raw.githubusercontent.com/example/my-kryon-app/master/showcase/banner.png \
   --homepage https://example.com/my-kryon-app \
@@ -31,9 +33,9 @@ Manual path:
 If you do not want to edit JSON yourself, open a Project submission issue and
 maintainers can turn it into a pull request.
 
-Ranked projects are sorted by stars from trusted platforms. GitHub is supported
+Ranked projects are sorted by stars from supported platforms. GitHub is supported
 for ranked entries in v1. Other public Git platforms may be listed by setting
-`unranked` to `true` until a trusted star counter is added.
+`unranked` to `true` until a star counter is added.
 
 ## Metadata
 
@@ -45,6 +47,7 @@ Required fields:
 - `slug`: unique project slug
 - `name`: user-facing app name
 - `summary`: one-sentence user-facing summary
+- `author`: public author name and website
 - `repository`: public source repository
 - `banner`: public 16:9 showcase image
 - `tags`: short lowercase tags
@@ -55,19 +58,8 @@ Optional fields:
 - `featured`: first-party or curated feature candidate
 - `unranked`: exclude from star ranking
 
-## Trusted Ranking
+## Stars
 
 The website consumes this repository as metadata, then resolves star counts from
-trusted public APIs. If a host cannot be counted reliably, the project remains
+supported public APIs. If a host cannot be counted reliably, the project remains
 visible but is not eligible for the top-10 ranked block.
-
-## Logo Variants
-
-`assets/logos/` contains five transparent 512x512 pixel-art crayon logo variants
-inspired by the original Kryon four-crayon mark:
-
-- `crayon-starburst.png`
-- `crayon-diamond.png`
-- `crayon-pinwheel.png`
-- `crayon-shield.png`
-- `crayon-slash.png`

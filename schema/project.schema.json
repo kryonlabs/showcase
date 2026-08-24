@@ -4,7 +4,7 @@
   "title": "Kryon showcase project",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "slug", "name", "summary", "repository", "banner", "tags"],
+  "required": ["schemaVersion", "slug", "name", "summary", "author", "repository", "banner", "tags"],
   "properties": {
     "schemaVersion": {
       "const": 1
@@ -24,6 +24,22 @@
       "type": "string",
       "minLength": 20,
       "maxLength": 220
+    },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        }
+      }
     },
     "repository": {
       "type": "object",
