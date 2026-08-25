@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "slug": "taiji",
+  "name": "Taiji",
+  "summary": "Kryon-native Plan 9 desktop distribution integrating Rill, Shelf, Kapsule, and Taiji system tools.",
+  "author": {
+    "name": "taijiosnet",
+    "url": "https://taijios.net"
+  },
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/taijiosnet/taiji",
+    "owner": "taijiosnet",
+    "name": "taiji"
+  },
+  "homepage": "https://taijios.net",
+  "banner": {
+    "url": "https://raw.githubusercontent.com/taijiosnet/taiji/master/showcase/banner.png",
+    "alt": "Taiji desktop showcase banner"
+  },
+  "tags": ["os", "desktop", "plan9", "kryon"],
+  "featured": true
+}

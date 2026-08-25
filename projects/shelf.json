@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "slug": "shelf",
+  "name": "Shelf",
+  "summary": "Lightweight Kryon file browser for native desktops and embedded Rill application windows.",
+  "author": {
+    "name": "kryonlabs",
+    "url": "https://kryonlabs.com"
+  },
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/kryonlabs/shelf",
+    "owner": "kryonlabs",
+    "name": "shelf"
+  },
+  "homepage": "https://shelf.kryonlabs.com",
+  "banner": {
+    "url": "https://raw.githubusercontent.com/kryonlabs/shelf/master/showcase/banner.png",
+    "alt": "Shelf file browser showcase banner"
+  },
+  "tags": ["files", "desktop", "kryon", "plan9"],
+  "featured": true
+}
