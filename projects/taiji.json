@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "slug": "taiji",
   "name": "Taiji",
-  "summary": "Kryon-native Plan 9 desktop distribution integrating Rill, Shelf, Kapsule, and Taiji system tools.",
+  "summary": "Kryon-native Plan 9 desktop distribution integrating Rill, Shelf, ktrem, and Taiji system tools.",
   "author": {
     "name": "taijiosnet",
     "url": "https://taijios.net"
