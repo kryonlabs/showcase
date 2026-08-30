@@ -15,7 +15,7 @@
   },
   "homepage": "https://krait.kryonlabs.com",
   "banner": {
-    "url": "https://raw.githubusercontent.com/kryonlabs/krait/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/krait/banner.png",
     "alt": "Krait IDE showcase banner"
   },
   "tags": ["ide", "developer-tools", "desktop"],

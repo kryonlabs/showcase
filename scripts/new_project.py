@@ -96,10 +96,10 @@ def main():
     if args.unranked:
         data["unranked"] = True
 
-    PROJECTS.mkdir(parents=True, exist_ok=True)
-    path = PROJECTS / f"{args.slug}.json"
+    path = PROJECTS / args.slug / "project.json"
     if path.exists():
         raise SystemExit(f"{path} already exists")
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2)
         fh.write("\n")

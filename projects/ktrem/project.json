@@ -15,7 +15,7 @@
   },
   "homepage": "https://kapsule.kryonlabs.com",
   "banner": {
-    "url": "https://raw.githubusercontent.com/kryonlabs/kapsule/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/ktrem/banner.png",
     "alt": "ktrem terminal showcase banner"
   },
   "tags": ["terminal", "developer-tools", "desktop"],

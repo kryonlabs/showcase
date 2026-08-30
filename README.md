@@ -16,7 +16,7 @@ python3 scripts/new_project.py \
   --author "Example Author" \
   --author-url https://example.com \
   --repo https://github.com/example/my-kryon-app \
-  --banner https://raw.githubusercontent.com/example/my-kryon-app/master/showcase/banner.png \
+  --banner https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/my-kryon-app/banner.png \
   --homepage https://example.com/my-kryon-app \
   --tags app,kryon,desktop
 python3 scripts/validate.py
@@ -24,11 +24,12 @@ python3 scripts/validate.py
 
 Manual path:
 
-1. Copy `templates/project.json` to `projects/<slug>.json`.
+1. Create `projects/<slug>/` and copy `templates/project.json` to `projects/<slug>/project.json`.
 2. Use a stable, lowercase slug with hyphens.
 3. Point `repository.url` at a public source repository.
-4. Point `banner.url` at a public 16:9 PNG, JPG, or WebP image.
-5. Open a pull request.
+4. Put showcase assets beside the project file, for example `projects/<slug>/banner.png`.
+5. Point `banner.url` at the public raw URL for that asset in this repository.
+6. Open a pull request.
 
 If you do not want to edit JSON yourself, open a Project submission issue and
 maintainers can turn it into a pull request.
@@ -39,7 +40,8 @@ for ranked entries in v1. Other public Git platforms may be listed by setting
 
 ## Metadata
 
-Each project file follows `schema/project.schema.json`.
+Each project file lives at `projects/<slug>/project.json` and follows
+`schema/project.schema.json`.
 
 Required fields:
 

@@ -15,7 +15,7 @@
   },
   "homepage": "https://taijios.net",
   "banner": {
-    "url": "https://raw.githubusercontent.com/taijiosnet/taiji/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/taiji/banner.png",
     "alt": "Taiji desktop showcase banner"
   },
   "tags": ["os", "desktop", "plan9", "kryon"],

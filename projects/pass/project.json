@@ -15,7 +15,7 @@
   },
   "homepage": "https://pass.waozi.xyz",
   "banner": {
-    "url": "https://raw.githubusercontent.com/waozixyz/pass/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/pass/banner.png",
     "alt": "Pass password generator showcase banner"
   },
   "tags": ["security", "passwords", "desktop", "mobile", "web"],

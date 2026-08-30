@@ -59,8 +59,8 @@ def validate_project(path):
         return 1
     if not SLUG_RE.match(data["slug"]):
         return fail(path, "slug must be lowercase hyphenated ASCII")
-    if path.name != f"{data['slug']}.json":
-        return fail(path, "filename must match slug")
+    if path.name != "project.json" or path.parent.name != data["slug"] or path.parent.parent != PROJECTS:
+        return fail(path, "path must be projects/<slug>/project.json")
     if check_string(path, data, "name", 1, 80) or check_string(path, data, "summary", 20, 220):
         return 1
 
@@ -114,14 +114,14 @@ def validate_project(path):
 
 
 def main():
-    paths = sorted(PROJECTS.glob("*.json"))
+    paths = sorted(PROJECTS.glob("*/project.json"))
     if not paths:
         return fail(PROJECTS, "no project files found")
     seen = set()
     rc = 0
     for path in paths:
         rc |= validate_project(path)
-        slug = path.stem
+        slug = path.parent.name
         if slug in seen:
             rc |= fail(path, "duplicate slug")
         seen.add(slug)

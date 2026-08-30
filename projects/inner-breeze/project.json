@@ -15,7 +15,7 @@
   },
   "homepage": "https://inbe.waozi.xyz",
   "banner": {
-    "url": "https://raw.githubusercontent.com/waozixyz/inbe/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/inner-breeze/banner.png",
     "alt": "Inner Breeze app showcase banner"
   },
   "tags": ["wellness", "habits", "mobile", "web"],

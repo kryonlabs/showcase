@@ -15,7 +15,7 @@
   },
   "homepage": "https://rill.kryonlabs.com",
   "banner": {
-    "url": "https://raw.githubusercontent.com/kryonlabs/rill/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/rill/banner.png",
     "alt": "Rill desktop shell showcase banner"
   },
   "tags": ["desktop", "shell", "kryon", "plan9"],

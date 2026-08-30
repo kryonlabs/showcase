@@ -15,7 +15,7 @@
   },
   "homepage": "https://shelf.kryonlabs.com",
   "banner": {
-    "url": "https://raw.githubusercontent.com/kryonlabs/shelf/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/shelf/banner.png",
     "alt": "Shelf file browser showcase banner"
   },
   "tags": ["files", "desktop", "kryon", "plan9"],

@@ -11,7 +11,7 @@
   },
   "homepage": "https://example.com/my-kryon-app",
   "banner": {
-    "url": "https://raw.githubusercontent.com/example/my-kryon-app/master/showcase/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/my-kryon-app/banner.png",
     "alt": "My Kryon App showcase banner"
   },
   "tags": ["app", "kryon"],
