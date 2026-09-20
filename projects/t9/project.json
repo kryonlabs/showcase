@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "slug": "t9",
+  "name": "t9",
+  "summary": "Terminal for Linux and Taiji with sessions, tabs, and focused developer workflows.",
+  "author": {
+    "name": "kryonlabs",
+    "url": "https://kryonlabs.com"
+  },
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/kryonlabs/t9",
+    "owner": "kryonlabs",
+    "name": "t9"
+  },
+  "homepage": "https://ktrem.kryonlabs.com",
+  "banner": {
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/t9/banner.png",
+    "alt": "t9 terminal showcase banner"
+  },
+  "tags": ["terminal", "developer-tools", "desktop"],
+  "featured": true
+}
