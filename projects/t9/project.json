@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "slug": "t9",
-  "name": "t9",
+  "name": "Terminal",
   "summary": "Terminal for Linux and Taiji with sessions, tabs, and focused developer workflows.",
   "author": {
-    "name": "taijiosnet",
-    "url": "https://github.com/taijiosnet"
+    "name": "KryonLabs",
+    "url": "https://github.com/kryonlabs"
   },
   "repository": {
     "platform": "github",
-    "url": "https://github.com/taijiosnet/t9",
-    "owner": "taijiosnet",
-    "name": "t9"
+    "url": "https://github.com/kryonlabs/terminal",
+    "owner": "kryonlabs",
+    "name": "terminal"
   },
   "homepage": "https://ktrem.kryonlabs.com",
   "banner": {
     "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/t9/banner.png",
-    "alt": "t9 terminal showcase banner"
+    "alt": "Terminal showcase banner"
   },
   "tags": [
     "terminal",
