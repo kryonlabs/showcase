@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "slug": "t9",
+  "slug": "terminal",
   "name": "Terminal",
-  "summary": "Terminal for Linux and Taiji with sessions, tabs, and focused developer workflows.",
+  "summary": "Native terminal application with sessions, tabs, and focused developer workflows.",
   "author": {
     "name": "KryonLabs",
     "url": "https://github.com/kryonlabs"
@@ -15,7 +15,7 @@
   },
   "homepage": "https://ktrem.kryonlabs.com",
   "banner": {
-    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/t9/banner.png",
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/terminal/banner.png",
     "alt": "Terminal showcase banner"
   },
   "tags": [
