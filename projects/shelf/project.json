@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "slug": "shelf",
+  "name": "Shelf",
+  "summary": "File explorer for Rill and Taiji OS that also runs as a standalone desktop app.",
+  "author": {
+    "name": "KryonLabs",
+    "url": "https://github.com/kryonlabs"
+  },
+  "repository": {
+    "platform": "github",
+    "url": "https://github.com/kryonlabs/shelf",
+    "owner": "kryonlabs",
+    "name": "shelf"
+  },
+  "banner": {
+    "url": "https://raw.githubusercontent.com/kryonlabs/showcase/master/projects/shelf/banner.png",
+    "alt": "Shelf file explorer showcase banner"
+  },
+  "tags": [
+    "files",
+    "desktop",
+    "kryon",
+    "plan9"
+  ],
+  "featured": true
+}
